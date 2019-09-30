@@ -1,0 +1,3 @@
+[submodule "www/themes/hugo-lodi-theme"]
+	path = www/themes/hugo-lodi-theme
+	url = https://github.com/xaviablaza/hugo-lodi-theme.git

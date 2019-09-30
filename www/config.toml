@@ -1,0 +1,4 @@
+baseURL = "https://www.zacharyfouts.com/"
+languageCode = "en-us"
+title = "Zachary Fouts - Software Engineer - Farmer - Human"
+theme = "hugo-lodi-theme"

@@ -1,0 +1,40 @@
+kind: pipeline
+name: default
+
+steps:
+
+- name: build_www
+  image: plugins/hugo
+  settings:
+    pull: always
+    validate: true
+    buildDrafts: true
+    buildExpired: true
+    buildFuture: true
+    config: www/config
+    content: www/content/
+    layout: www/layout
+    output: www/public
+    source: www/source
+    theme: www/themes/hugo-lodi-theme
+    url: https://www.zacharyfouts.com
+
+- name: deploy_www
+  image: appleboy/drone-scp
+  settings:
+    host:
+      from_secret: target_host
+    target:
+      from_secret: target_path
+    source: www/public/*
+    username:
+      from_secret: target_username
+    password:
+      from_secret: target_password
+    port: 22
+  when:
+    branch:
+    - master
+    event:
+      exclude:
+      - pull_request
