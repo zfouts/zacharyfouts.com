@@ -11,7 +11,7 @@ steps:
     buildDrafts: true
     buildExpired: true
     buildFuture: true
-    config: www/config
+    config: www/config.toml
     content: www/content/
     layout: www/layout
     output: www/public
