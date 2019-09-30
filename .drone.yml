@@ -1,8 +1,8 @@
 kind: pipeline
 name: default
+type: docker
 
 steps:
-
 - name: submodules
   image: alpine:git
   commands:
