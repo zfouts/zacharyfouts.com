@@ -21,7 +21,7 @@ steps:
     layout: www/layout
     output: www/public
     source: www/source
-    theme: www/themes/hugo-lodi-theme
+    theme: https://github.com/xaviablaza/hugo-lodi-theme.git
     url: https://www.zacharyfouts.com
 
 - name: deploy_www
