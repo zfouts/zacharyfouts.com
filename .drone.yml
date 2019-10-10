@@ -17,9 +17,9 @@ steps:
     buildExpired: true
     buildFuture: true
     config: www/config.toml
-    content: www/content/
-    layout: www/layout
-    output: www/public
+    content: content/
+    layout: layout
+    output: public
     theme: hugo-lodi-theme
     source: www
     url: https://www.zacharyfouts.com
