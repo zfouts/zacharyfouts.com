@@ -20,8 +20,8 @@ steps:
     content: www/content/
     layout: www/layout
     output: www/public
-    source: www/source
     theme: www/themes/hugo-lodi-theme
+    source: www/source
     url: https://www.zacharyfouts.com
 
 - name: deploy_www
