@@ -19,6 +19,27 @@ steps:
     source: www
     url: https://www.zacharyfouts.com
 
+- name: ssh
+  image: appleboy/drone-ssh
+  settings:
+    host:
+      from_secret: target_host
+    target:
+      from_secret: target_path
+    script:
+      from_secret: target_script
+    username:
+      from_secret: target_username
+    password:
+      from_secret: target_password
+    port: 22
+  when:
+    branch:
+    - master
+    event:
+      exclude:
+      - pull_request
+
 - name: deploy_www
   image: appleboy/drone-scp
   settings:
