@@ -16,10 +16,10 @@ steps:
     buildDrafts: true
     buildExpired: true
     buildFuture: true
-    config: config.toml
-    content: content/
-    layout: layout
-    output: public
+    config: www/config.toml
+    content: www/content/
+    layout: www/layout
+    output: www/public
     theme: hugo-lodi-theme
     source: www
     url: https://www.zacharyfouts.com
