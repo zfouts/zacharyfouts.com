@@ -11,12 +11,12 @@ steps:
     buildDrafts: true
     buildExpired: true
     buildFuture: true
-    config: www/config.toml
+    config: config.toml
     content: content/
     layout: layout
     output: public
     theme: hugo-devresume-theme
-    source: www
+    source: ./
     url: https://www.zacharyfouts.com/
 
 - name: ssh
