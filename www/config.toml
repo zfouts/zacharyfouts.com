@@ -200,6 +200,7 @@ googleAnalytics = ""
         title = "@inet6"
 
 
-
+[params.footer]
+    copyright = "&copy; 2019 Zachary Fouts"
 
 
