@@ -1,0 +1,205 @@
+baseURL = "https://www.zacharyfouts.com/"
+languageCode = "en-us"
+title = "Zachary Fouts - Software Engineer - Farmer - Human"
+theme = "hugo-devresume-theme"
+
+[params]
+    author = "Zachary Fouts"
+    description = "Zachary Fouts"
+
+    [params.profile]
+        enable = true
+        name = "Zachary Fouts"
+        tagline = "Senior Site Reliability Engineer"
+        avatar = "avatar.png"
+
+    [params.contact]
+        enable = true
+        location = "Texas"
+
+        [[params.contact.list]]
+        style = "fas"
+        icon = "fa-envelope-square"
+        url = "mailto:#"
+        text = "zach@linux.com"
+        [[params.contact.list]]
+        style = "fas"
+        icon = "fa-globe"
+        url = "#"
+        text = "www.zacharyfouts.com"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Ansible"
+        [[params.skills.list.items]]
+        details = "CockroachDB"
+        [[params.skills.list.items]]
+        details = "Golang/Python/Bash"
+        [[params.skills.list.items]]
+        details = "Linux/BSD"
+        [[params.skills.list.items]]
+        details = "Site Reliability"
+        [[params.skills.list.items]]
+        details = "SaltStack"
+        [[params.skills.list.items]]
+        details = "Terraform"
+        [[params.skills.list]]
+
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Problem solver"
+        [[params.skills.list.items]]
+        details = "Empathetic"
+        [[params.skills.list.items]]
+        details = "Understanding humans"
+
+
+    [params.education]
+        enable = false
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "HE.net IPv6 Sage"
+        body = "IPv6 Sage Certified"
+        date = "2009-05-06 12:10:56"
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Farming"
+        [[params.interests.list]]
+        name = "Permaculture"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travel"
+        [[params.interests.list]]
+        name = "Food"
+
+
+    [params.summary]
+        enable = false
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Senior Site Reliability Engineer"
+        dates = "2018 - Present"
+        company = "Arm Treasure Data"
+        details = "Senior Site Reliability Engineer responsible for our in-house Enterprise Customer Data Platform"
+        [[params.experience.list.items]]
+        details = "Complete Sensu-go Deployment to 3 global sites."
+        [[params.experience.list.items]]
+        details = "Migration of infrastructure deployment to utilize Terraform."
+        [[params.experience.list.items]]
+        details = "Promote safety; repeatable & standardized deployments."
+
+        [[params.experience.list]]
+        title = "Lead/Senior DevOps Engineer"
+        dates = "2017 - 2018"
+        company = "Bethesda Softworks"
+        details = "Mentor team of mixed backgrounds from Junior to Senior level engineers."
+        [[params.experience.list.items]]
+        details = "Promote usage and adoption of Kubernetes."
+        [[params.experience.list.items]]
+        details = "Architect multi-TB/day ingest logging/telemetry platform utilizing, Elastic Search, Fluentd/Fluent-bit, Terraform, and Salt Stack"
+        [[params.experience.list.items]]
+        details = "Architect multi-site monitoring platform utilizing InfluxDB, Grafana, Telegraf, Terraform, and Salt Stack"
+
+        [[params.experience.list]]
+        title = "Senior Site Reliability Engineer / Security Engineer"
+        dates = "2014 - 2017"
+        company = "Ask.com"
+        details = "Building secure and scalable systems."
+        [[params.experience.list.items]]
+        details = "Build 500+ node OpenShift (Kubernetes) cluster utilizing Ansible to prepare migration of legacy applications to containerized workloads."
+
+        [[params.experience.list]]
+        title = "Director of Cloud Services"
+        dates = "2014 - 2014"
+        company = "Stealth Security Startup"
+        details = "Build team of engineers to support infrastructure, customers, and professional services."
+
+        [[params.experience.list]]
+        title = "Lead Linux Engineer"
+        dates = "2013 - 2014"
+        company = "CSID"
+        details = "Complete RHEL4/RHEL5->RHEL6 migration for ISO27001, PCI-DSS, and HIPAA compliance."
+
+        [[params.experience.list]]
+        title = "Senior Support Engineer"
+        dates = "2012 - 2013"
+        company = "Zenoss"
+        details = "Support customers running Zenoss monitoring platform."
+
+        [[params.experience.list]]
+        title = "Linux Support Engineer"
+        dates = "2011 - 2012"
+        company = "Rackspace"
+        details = "Support SMB customers in all aspects of dedicated server hosting."
+       
+        [[params.experience.list]]
+        title = "Freelance"
+        dates = "2000 - Present"
+        company = "Freelance"
+        details = "A little bit of everything!"
+
+        [[params.experience.list]]
+        title = "Managing Partner"
+        dates = "2002 - 2010"
+        company = "Manage My Dedi"
+        details = "Marketing, Development, Customer Support, Customer Engagement."
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "(Unofficial) Multi-arch Salt Stack Master Docker maintainer"
+        meta = "Open Source"
+        tagline = "Multi-arch (armh, aarch64, amd64, i386) docker image based on Debian"
+
+    [params.information]
+        enable = false
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        style = "fab"
+        icon = "fa-github-square"
+        url = "//github.com/zfouts"
+        title = "zfouts"
+        [[params.social.list]]
+        style = "fab"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/zacharyfouts"
+        title = "zacharyfouts"
+        [[params.social.list]]
+        style = "fab"
+        icon = "fa-twitter-square"
+        url = "//twitter.com/inet6"
+        title = "@inet6"
+
+
+[params.footer]
+    copyright = "&copy; 2019 Zachary Fouts"
+
+

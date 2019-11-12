@@ -47,7 +47,7 @@ steps:
       from_secret: target_host
     target:
       from_secret: target_path
-    source: www/public/*
+    source: public/*
     username:
       from_secret: target_username
     password:
