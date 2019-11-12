@@ -15,7 +15,7 @@ steps:
     content: content/
     layout: layout
     output: public
-    theme: themes/hugo-devresume-theme
+    theme: hugo-devresume-theme
     source: www
     url: https://www.zacharyfouts.com/
 
