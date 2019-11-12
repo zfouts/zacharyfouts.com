@@ -17,7 +17,7 @@ steps:
     output: public
     theme: hugo-lodi-theme
     source: www
-    url: https://www.zacharyfouts.com
+    url: https://www.zacharyfouts.com/
 
 - name: ssh
   image: appleboy/drone-ssh
