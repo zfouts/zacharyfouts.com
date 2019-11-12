@@ -200,6 +200,6 @@ theme = "hugo-devresume-theme"
 
 
 [params.footer]
-    copyright = "&copy; 2019 Zachary Fouts"
+    copyright = "Zachary Fouts"
 
 

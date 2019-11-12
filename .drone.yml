@@ -16,7 +16,6 @@ steps:
     layout: layout
     output: public
     theme: hugo-devresume-theme
-    source: ./
     url: https://www.zacharyfouts.com/
 
 - name: ssh
